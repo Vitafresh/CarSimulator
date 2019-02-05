@@ -9,6 +9,11 @@ public class Car {
         //Constructor
     }
 
+    public Car(String chosenColor){
+        //Constructor
+        color=chosenColor;
+    }
+
     public int getmNumberOfSeats() {
         return mNumberOfSeats;
     }
