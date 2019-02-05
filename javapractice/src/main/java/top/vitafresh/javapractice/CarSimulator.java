@@ -9,6 +9,7 @@ public class CarSimulator {
         System.out.println("Color = " + myToyota.color);
         myToyota.color="Blue";
         System.out.println("Color = " + myToyota.color);
+        System.out.println("Num of seats = " + myToyota.getmNumberOfSeats());
 
 
     }
