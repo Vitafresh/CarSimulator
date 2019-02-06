@@ -30,4 +30,8 @@ public class Car {
     public String getInterior() {
         return mInterior;
     }
+
+    public String Drive(){
+        return "Car is moving";
+    }
 }

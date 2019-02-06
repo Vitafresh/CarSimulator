@@ -16,6 +16,7 @@ public class CarSimulator {
         System.out.println("Color = " + myHonda.color);
         System.out.println("Num of seats = " + myHonda.getNumberOfSeats());
         System.out.println("Interiror = " + myHonda.getInterior());
+        System.out.println(myHonda.Drive());
 
 
     }
