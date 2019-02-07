@@ -1,7 +1,7 @@
 package top.vitafresh.javapractice;
 
 public class Car {
-    public String color="Black";
+    public static String color="Black";
     private int mNumberOfSeats = 5;
     private String mInterior;
 
