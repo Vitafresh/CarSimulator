@@ -8,4 +8,11 @@ public class SelfDrivingCar extends Car {
 
     public SelfDrivingCar() {
     }
+
+    @Override
+    public void Drive(){
+        super.Drive();
+        System.out.println("Driving by automated AI");
+    }
+
 }
