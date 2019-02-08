@@ -1,9 +1,9 @@
 package top.vitafresh.javapractice;
 
 public class Car {
-    public static String color="Black";
+    public String color="Black";
     private int mNumberOfSeats = 5;
-    private String mInterior;
+    protected String mInterior;
 
 
     public Car(){
@@ -31,7 +31,7 @@ public class Car {
         return mInterior;
     }
 
-    public String Drive(){
-        return "Car is moving";
+    public void Drive(){
+        System.out.println("Driving car.");
     }
 }
